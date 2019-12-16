@@ -1,5 +1,12 @@
 # Change Log
 
+## v0.15.0
+
+Breaking changes:
+
+- Support VS Code icon and color theming. [#6475](https://github.com/eclipse-theia/theia/pull/6475)
+  - Use `theia-input`, `theia-select` and `theia-button` to style input/textarea, select and button elements correspondingly. Before such elements were styled in an ad-hoc manner.
+
 ## v0.14.0
 
 - [application-manager] removed unnecessary `bunyan` dependency [#6651](https://github.com/eclipse-theia/theia/pull/6651)
